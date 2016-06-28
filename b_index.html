@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>	
+<head>
+		<title>Siam</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="styles.css">
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript"> function changeContent(p){
+							switch(p) {
+							    case 'Home':
+							        $("#content").load("main.html");
+							        break;
+							    case 'Projects':
+							        $("#content").load("projects.html");
+							        break;
+						        case 'Papers':
+							       $("#content").load("papers.html");
+							        break;
+						        case 'Contact':
+							        $("#content").load("contact.html");
+							        break;
+							    case 'cv':
+							        window.location.href = "siam.pdf";
+							        break;
+							    case 'code':
+							        $("#content").load("code.html");
+							        break;
+							    default:
+							       
+					}
+				}
+
+
+		</script>
+			
+			    
+		<script type="text/javascript">
+			
+			$(function(){ /* to make sure the script runs after page load */
+
+		    $('a.inactive').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+		        event.preventDefault(); /* prevent the a from changing the url */
+		        $("a.active").removeClass("active");
+		        //$(this).parents('.one').find('.more_text').show(); /* show the .more_text span */
+		        $(this).addClass('active', 'class');
+		       // alert('sdf');
+		        
+		        
+
+		    });
+
+		});
+		</script>
+</head>	
+<body id='top'>
+	<div class="wrap">
+		<div>
+		<!-- Header -->
+			<header class="my_top" id="header" >
+				
+				<div class="profile_pic"><img class = "pic2" src="images/profile_pic.jpg" alt="" />
+					<h1>I am <strong>Sayem Mohammad Siam</strong>, a graduate student
+				in the department of Computing Science
+				at University of Alberta</h1>
+				</div>
+				
+			</header>
+			</div>
+		
+		<!-- Main -->
+		<div id="main">
+			<!-- One -->
+				<div id='cssmenu'>
+					<ul>
+					   <li><a class="inactive active" onclick="changeContent('Home');">Home</a></li>
+					   <li><a  class="inactive" onclick="changeContent('Projects');">Reseach Projects</a></li>
+					   <li><a  class="inactive"  onclick="changeContent('Papers');">Papers</a></li>
+					   <li><a   class="inactive" onclick="changeContent('Contact');">Contact</a></li>
+					   <li><a   class="inactive" onclick="changeContent('code');">Source Code</a></li>
+					   <li><a   class="inactive" onclick="changeContent('cv');">CV</a></li>
+					</ul>	
+				</div>
+			<div id="content">
+			
+				
+				
+				    
+	    	</div>
+
+					
+			<!-- <footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+			</footer> -->
+		
+		
+					
+
+					
+		<!-- end of main -->
+
+		</div>
+
+		
+		<script src="script.js"></script>
+	    <script src="assets/js/util.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/main.js"></script> 
+		
+		
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script type="text/javascript">changeContent('Home');</script>
+
+		<!-- [if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		
+		
+		
+		
+
+	   
+	</body>
+</html>

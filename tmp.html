@@ -1,0 +1,17 @@
+<a class="popup" href="#!" data-link="http://www.youtube.com/embed/fbVD32w1oTo?enablejsapi=1" data-title="How to install SASS">SASS</a>
+
+<a class="popup" href="#!" data-link="http://www.youtube.com/embed/Q0HFBy2BtfA?enablejsapi=1" data-title="How to install Node.js">Node.js</a>
+
+
+<div id="video-view">
+</div>
+<script type="text/javascript">
+    $(".popup").click(function () {
+    var $this = $(this);
+    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 400, "height": 300});
+    var $title = $("<h1>").text($this.data("title"));
+    $("#video-view").html($title).append($iframe);
+    $iframe.wrap("<div class='class-video'>");
+});
+    
+</script>
