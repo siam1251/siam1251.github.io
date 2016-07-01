@@ -204,7 +204,9 @@ html, body {
     height: 100%;
     width: 50px;
 }
-
+.navigation .programming{
+ 
+}
 .slider-navigation {
     top: 30%;
     position: relative;
@@ -1022,18 +1024,18 @@ html, body {
 }
 
 .worked-ul {
-	margin-left:20px;
+  margin-left:20px;
 }
 
 .worked-ul li {
-	padding:0 !important;
+  padding:0 !important;
 }
 .worked-ul li:before {
-	 content:"\f0da";
-	 color:#2574a9;
-	 font-size:16px;
-	 font-family:FontAwesome;
-	 padding-right:10px;
+   content:"\f0da";
+   #color:#2574a9;
+   font-size:16px;
+   font-family:FontAwesome;
+   padding-right:10px;
 }
 
 /* The date/time */
@@ -1178,8 +1180,23 @@ html, body {
 /* ================================= */
 /* ::::::::: 6. Portfolio :::::::::: */
 /* ================================= */
-
-
+.volunteer{
+  margin-top: -10px!important;
+}
+.volunteer .tmlabel{
+  padding-top: 0!important;
+}
+.volunteer li{
+  padding-top: 0!important;
+}
+.volunteer > li:before {
+  background: none!important;
+}
+.more_text{
+  padding: 0;
+  margin: 0;
+  display: none;
+}
 .research-projects {
   background: #FFFFFF;
   z-index: 999;
@@ -2114,66 +2131,66 @@ footer a:hover, footer a:focus {
 
 
 .research h4 {
-	margin-top:40px;
-	font-weight: bold;
+  margin-top:40px;
+  font-weight: bold;
 }
 
-.read-more {
-	display:block;
-	width:100%;
-	float:left;
-	margin:15px 0 50px;
+.read-more2 {
+  display:block;
+  width:100%;
+  float:left;
+  margin:15px 0 50px;
 }
 
 .read-more .post-button {
-	text-align:left;
+  text-align:left;
 }
 
 .read-more .post-button a {
-	top:0;
+  top:0;
 }
 
 .slider-navigation em.hm {
-	left:calc(100% + 36px);
+  left:calc(100% + 36px);
 }
 
 .slider-navigation em.rsp {
-	left:calc(100% + 75px);
+  left:calc(100% + 75px);
 }
 
 .slider-navigation em.sc {
-	left:calc(100% + 60px);
+  left:calc(100% + 60px);
 }
 
 .slider-navigation em.cv {
-	left:calc(100% + 30px);
+  left:calc(100% + 30px);
 }
 
 
 .source-code ul {
-	margin-top:30px;
-	margin-left:20px;
+  margin-top:30px;
+  margin-left:20px;
 }
 
 .source-code ul li:before {
-	 content:"\f0da";
-	 color:#2574a9;
-	 font-size:16px;
-	 font-family:FontAwesome;
-	 padding-right:10px;
+   content:"\f0da";
+   color:#2574a9;
+   font-size:16px;
+   font-family:FontAwesome;
+   padding-right:10px;
 }
 
 .source-code ul li a {
-	color:#0096fa;
+  color:#0096fa;
 }
 
 .source-code ul li a:hover {
-	color:#003050;
+  color:#003050;
 }
 
 .contact-information .contact {
-	margin-top:20px;
-	padding-left:30px;
+  margin-top:20px;
+  padding-left:30px;
 }
 
 
@@ -2676,8 +2693,8 @@ footer .copyright {
 }
 
 .research-projects iframe {
-	width:100%;
-	height:auto;
+  width:100%;
+  height:auto;
 }
 
 .info {
