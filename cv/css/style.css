@@ -636,9 +636,12 @@ html h4, body h4{
 }
 
 .experience {
-  padding: 10px 0 0 0;
+  padding: 0 0 0 0;
 }
-
+.experience h2{
+  padding: 0;
+  margin: 0;
+}
 .experience h2, .hobbies h2 {
   text-transform: none;
 }
@@ -821,6 +824,10 @@ html h4, body h4{
     text-align: center;
     display: block;
     font-family: "Montserrat", sans-serif;
+}
+.experience h3.title-experience{
+  padding: 0;
+  margin: 0;
 }
 
 .services h3.title-services:after {
