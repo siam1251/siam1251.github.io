@@ -30,11 +30,24 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  font-size: 16px!important;
+
   -webkit-font-smoothing: antialiased;
   color: #2574a9!important;
+  
   overflow: hidden;
 }
-
+html p, body li{
+  font-size: 16px!important;
+  color:#000;
+}
+html h2, body h3{
+  color: #2574a9!important;
+}
+html h4, body h4{
+  color: #2574a9!important;
+  font-size: 20px!important;
+}
 #page-loader {
     background: #2574a9;
     height: 100%;
@@ -42,7 +55,9 @@ html, body {
     position: fixed;
     z-index: 99999;
 } 
-
+.social-icons li a i{
+  font-size: 27px;
+}
 .loader-icon {
     background: none repeat scroll 0 0 #2574a9;
     border-bottom: 3px solid rgba(19, 19, 19, 0.1) !important;
@@ -251,7 +266,7 @@ html, body {
 
 .slider-navigation i {
   color: #FFFFFF;
-  font-size: 17px;
+  font-size: 25px;
   line-height: 46px;
   display: block;
   position: relative;
@@ -545,7 +560,7 @@ html, body {
 }
 
 .about-info  p {
-  font-size: 12px;
+  font-size: 17px;
   text-align: left;
   line-height: 25px;
 }
@@ -987,7 +1002,7 @@ html, body {
 
 .resume p {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 40px;
   margin-top: -27px;
   line-height: 25px;
@@ -1079,7 +1094,7 @@ html, body {
 }
 
 .tmtimeline li:nth-child(1) {
-  color: #2574a9;
+  /*color: #2574a9;*/
   padding: 1em 2em 2em 0;
   text-align: left;
   position: relative;
@@ -1096,7 +1111,8 @@ html, body {
 
 
 .tmlabel p {
-    font-size: 12px;
+    font-size: 16px;
+    color: #000;
     line-height: 25px;
     word-spacing: 1px;
     margin-bottom: 0;
