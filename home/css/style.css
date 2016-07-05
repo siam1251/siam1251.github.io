@@ -150,7 +150,7 @@ html h4, body h4{
 
 .slider-wrapper {
   position: relative;
-  width: 77%;
+  width: 80%;
   right: 0;
   float: right;
   height: 100vh;/* hide horizontal scrollbar on IE11 */
@@ -374,16 +374,19 @@ html h4, body h4{
 }
 
 .swiper-container .bg {
-    height: 42%;
+    height: 37%;
+    width: 100%;
     background-size: cover;
     background-position: center center;
 }
-
+.swiper-slide{
+  width: 100%!important;
+}
 .slider-left {
     position: absolute;
     top: 0;
     left: 0;
-    width: 23%;
+    width: 20%;
     height: 100%;
     border-top: 45px solid #2574a9;
     border-left: 45px solid #2574a9;
