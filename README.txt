@@ -1,23 +1,6 @@
-Strata by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
+Modified the original theme by Strata by HTML5 UP
 
-A simple, minimalist template that actually began life as an unused redesign of n33.co
-(my personal site). Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-n33.co @n33co dribbble.com/n33
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
 
 
 Credits:
