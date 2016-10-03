@@ -1040,7 +1040,7 @@ html h4, body h4{
 }
 
 .tmtimeline li:nth-child(1):before {
-  top: 19%;
+  top: 50%;
 }
 
 
@@ -2219,8 +2219,9 @@ footer a:hover, footer a:focus {
   padding-left:30px;
 }
 
-
-
+.sublist{
+  margin-left: 20px!important;
+}
 
 
 /* ================================= */
@@ -2258,7 +2259,7 @@ footer a:hover, footer a:focus {
    }
 
    .tmtimeline li:before {
-     top: 16%;
+     top: 40%;
    }
 
 }
